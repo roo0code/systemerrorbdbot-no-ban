@@ -66,8 +66,8 @@ def chat_list(update, context):
 @run_async
 def repo(update, context):
     button = [
-    [InlineKeyboardButton("Repo", url=f"https://github.com/NamasteIndia/slam-mirror-bot")],
-    [InlineKeyboardButton("Support Group", url=f"https://t.me/mirrorupdatesnnews")]]
+    [InlineKeyboardButton("👑Main Channel👑", url=f"t.me/systemerrorbd")],
+    [InlineKeyboardButton("✍🏻Support Group✍🏻", url=f"https://t.me/systemerrorbd")]]
     reply_markup = InlineKeyboardMarkup(button)
     update.effective_message.reply_photo(IMAGE_URL, reply_markup=reply_markup)
 
@@ -101,7 +101,7 @@ def bot_help(update, context):
     help_string = f'''
 /{BotCommands.HelpCommand}: To get this message.
 
-/{BotCommands.MirrorCommand} [download_url][magnet_link]: Start mirroring the link to google drive.\nPlzzz read this for full use of this command https://telegra.ph/Magneto-Python-Aria---Custom-Filename-Examples-01-20
+/{BotCommands.MirrorCommand} [download_url][magnet_link]: Start mirroring the link to google drive.\nPlzzz read this for full use of this command https://telegra.ph/Bot-Command-03-15
 
 /{BotCommands.UnzipMirrorCommand} [download_url][magnet_link]: Starts mirroring and if downloaded file is any archive, extracts it to google drive.
 
